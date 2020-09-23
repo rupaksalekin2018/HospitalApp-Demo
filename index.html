@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+
+    <!-- navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-hospital"></i>HospitalApp</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__links">Appointment</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#form-body" class="button">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- navbar section -->
+
+    <!-- hero section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>New Generation</h1>
+                <h2>Appointment</h2>
+                <p>See What makes us different.</p>
+                <button class="main__btn"><a href="#form-body">Get Started</a></button>
+            </div>
+
+            <div class="main__img-cotainer">
+                <img src="images/pic1.svg" id="main_img" alt="pic">
+            </div>
+        </div>
+    </div>
+    <!-- hero section -->
+
+
+    <!-- Services section -->
+    <div class="services">
+        <h1>See what the hype is about</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Experience Bliss</h2>
+                <p>Ai Powered Technology</p>
+                <button>Get started</button>
+            </div>
+            <div class="services__card">
+                <h2>Are you Ready?</h2>
+                <p>Take the leap</p>
+                <button>Get started</button>
+            </div>
+        </div>
+    </div>
+    <!-- Service section -->
+
+    <!-- sign up section -->
+    <div class="form-body" id="form-body">
+        <div class="container">
+            <form class="form" id="form">
+                <h2>Register With Us</h2>
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter Username">
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter Email">
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                    <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" id="password2" placeholder="Confirm Password">
+                    <small>Error Message</small>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- sign up section -->
+
+    <!-- Footer section -->
+    <div class="footer__container">
+
+        <h1>Developed By CyberNextTechnologies ©</h1>
+    </div>
+    <!-- Footer section -->
+
+    <script src="app.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
